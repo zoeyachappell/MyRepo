@@ -1,0 +1,7 @@
+#!/bin/bash/python3
+from bs4 import BeautifulSoup
+
+with open("GSOC_Alert_1111111_IP_Address.html") as fp:
+    soup = BeautifulSoup(fp)
+
+#soup = BeautifulSoup("<html>data</html>")
